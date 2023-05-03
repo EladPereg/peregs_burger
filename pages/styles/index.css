@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("picture/NewHamburger.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#indxDiv {
+    width: 400px;
+    height: 320px;
+    margin-left: 41%;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 25%;
+    border: 2px white solid;
+}
+
+h1 {
+    color: yellow;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-size: large;
+    color: white;
+}
+
+a {
+    color: yellow;
+    text-decoration: dashed;
+}
+
+.indxBtn {
+    cursor: pointer;
+    background-color: black;
+    margin: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25%;
+    font-size: large;
+    font-weight: 700;
+}

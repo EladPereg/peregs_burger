@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("picture/signinBUUrger.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+#signinDiv {
+    border: 2px white solid;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 80px;
+    border-radius: 10%;
+}
+
+h1 {
+    color: red;
+}
+
+.signinInp {
+    width: 200px;
+    height: 50px;
+    border-radius: 15%;
+    background-color: transparent;
+    margin: 20px;
+    border: 2px white solid;
+    color: yellow;
+    font-weight: 700;
+}
+
+.signinInp::placeholder {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: large;
+}
+
+#subBtn {
+    cursor: pointer;
+    border: 2px white solid;
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 25%;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+}

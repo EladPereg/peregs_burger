@@ -1,0 +1,37 @@
+body {
+    background-image: url(picture/Tbr.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#tanksH1 {
+    color: black;
+    margin-top: 230px;
+    margin-left: 270px;
+}
+
+#tanksBtn {
+    cursor: pointer;
+    height: 35px;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: 700;
+    background-color: burlywood;
+    position: absolute;
+    top: 40px;
+    left: 45%;
+  
+}
+#tanksA{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media(max-width:800px){
+    #tanksH1{
+       position: absolute;
+       left: -160px;
+       font-size: 24px;
+    }
+}

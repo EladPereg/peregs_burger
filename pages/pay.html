@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/pay.css'>
+    <script src='scripts/pay.js'></script>
+</head>
+
+<body>
+    <div id="divPay">
+        <h1>Payment area</h1>
+        <form name="fromsPay" method="post" action="/pay" onsubmit="return checkPay()" >
+            <input id="p1" name="pay1" class="inpPay" type="number" placeholder="Please enter your card number" required>
+            <br><label for="p1" id="lblp1"></label>
+            <input id="p2" name="pay2" class="inpPay" type="month" placeholder="Please enter the date on your ticket" required>
+            <br><label for="p2" id="lblp2"></label>
+            <input id="p3" name="pay3" class="inpPay" type="number" placeholder="three digits on the back of your card"
+             required>
+            <br><label for="p3" id="lblp3"></label>
+            <br>
+            <br>
+            <input id="subPay" type="submit">
+        </form>
+
+
+    </div>
+</body>
+
+</html>

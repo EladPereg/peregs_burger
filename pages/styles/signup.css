@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("picture/goBurger.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+label {
+    color: rgb(243, 242, 249);
+    text-decoration: dashed;
+    font-size: larger;
+}
+
+h1 {
+    color: white;
+}
+
+#signupDiv {
+    margin-left: 55%;
+    margin-top: 60px;
+    width: 500px;
+    height: 550px;
+    border: 2px white solid;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.signupInp {
+    background-color: transparent;
+    width: 300px;
+    height: 40px;
+    border: 2px white solid;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 800;
+}
+
+.signupInp::placeholder {
+    color: yellow;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#signupbBtn {
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    color: yellow;
+    border-radius: 15px;
+}

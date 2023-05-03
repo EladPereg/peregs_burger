@@ -1,0 +1,71 @@
+body {
+    background-image: url(picture/MenuWall.webp);
+    background-attachment: fixed;
+}
+
+#H1 {
+    margin-left: 45%;
+    color: black;
+    font-family: fantasy;
+}
+
+h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table,
+td,
+th {
+    color: black;
+    text-align: center;
+    margin-left: 29%;
+    width: 700px;
+    height: 150px;
+    border: 8px white solid;
+    border-collapse: collapse;
+}
+
+#td1 {
+    background: url("picture/hmburger\ meal.jpg");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+#td2 {
+    background: url("picture/schnitzel.jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+
+}
+
+#td3 {
+    background: url("picture/hmburger3.jpg");
+    background-size: cover;
+    padding-bottom: 60px;
+
+}
+
+#td4 {
+    background: url("picture/Vegan\ hamburger.jpg");
+    background-size: cover;
+}
+
+#td5 {
+    background: url("picture/Home\ fried\ chips.jpg");
+    background-size: cover;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

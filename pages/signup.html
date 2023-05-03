@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/signup.css'>
+    <script src='scripts/signup.js'></script>
+</head>
+
+<body>
+    <div id="signupDiv">
+        <h1>sign up</h1>
+        <form name="fromname" method="post" action="/signup" onsubmit="return check()">
+            <input class="signupInp" id="txtFirstName" name="fname" placeholder="first name" type="text">
+            <br><label for="txtFirstName" id="lblFname"></label><br>
+            <br>
+            <input class="signupInp" id="txtLastName" name="lname" placeholder="last name" type="text">
+            <br><label for="txtLastName" id="lblLname"></label><br>
+            <br>
+            <input class="signupInp" id="txtEmail" name="emailadd" placeholder="enter email" type="email"
+                required><br><label for="txtEmail" id="lblemail"></label><br>
+            <br>
+            <input class="signupInp" id="txtPass" name="pass" placeholder="password" type="password" required><br><label
+                for="txtPass" id="lblpass"></label><br>
+            <br>
+            <input class="signupInp" name="confpass" placeholder="confirm password" type="password" required><br>
+            <br>
+            <input id="signupbBtn" type="submit" value="SEND " >
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

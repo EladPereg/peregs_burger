@@ -1,0 +1,60 @@
+body {
+    background-image: url(picture/menuBurger.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+}
+
+#divPay {
+    margin-left: 37.5%;
+    margin-top: 100px;
+    width: 400px;
+    height: 460px;
+    border: 2px white solid;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.inpPay {
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    font-weight: 800;
+}
+
+.inpPay::placeholder {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+label {
+    font-size: larger;
+    background-color: aliceblue;
+}
+
+#subPay {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 45%;
+    cursor: pointer;
+}
+
+#aSign {
+    color: aliceblue;
+    font-size: large;
+    text-decoration: none;
+}
